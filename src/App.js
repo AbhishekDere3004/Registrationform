@@ -16,7 +16,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Step1Form/>} />
             <Route path="/Step2Form" element={<Step2Form/>} />
-            <Route path="/" exact element={<UserTable/>} />
+            <Route path='/UserTable' exact element={<UserTable/>} />
           </Routes>
         </div>
       </Router>

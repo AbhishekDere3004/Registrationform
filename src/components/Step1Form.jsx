@@ -137,10 +137,10 @@ const Step1Form = () => {
         />
       </Grid>
     </Grid>
-
-    <Button type="submit" variant="contained" color="primary">
-      Next
-    </Button>
+      <Button type='submit' variant='contained' color="primary">
+        next
+      </Button>
+    
   </form>
   );
 };
